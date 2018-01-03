@@ -20,3 +20,7 @@ end
 
 # split_strand_1 = dna1.split(//)
 # split_strand_2 = dna2.split(//)
+
+# if dna1.length != dna2.length
+#   return "Cannot compare different sized strands"
+# end
