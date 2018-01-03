@@ -35,7 +35,7 @@ class HammingTest < Minitest::Test
   end
 
   def test_small_distance
-    skip
+    # skip
     assert_equal 1, Hamming.compute('GGACG', 'GGTCG')
   end
 
