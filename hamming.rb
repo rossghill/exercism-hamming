@@ -8,7 +8,7 @@ def self.compute(dna1,dna2)
   iterator = 0
 
   if dna1 == dna2
-      hamming_distance = 0
+    hamming_distance = 0
   else
     while iterator < length_of_array + 1
       if split_strand_array_1[(iterator)] != split_strand_array_2[(iterator)]
@@ -16,11 +16,15 @@ def self.compute(dna1,dna2)
         iterator +=1
       else
         iterator +=1
-      end    
+      end
     end
     return hamming_distance
   end
 end
+end
+
+module BookKeeping
+  VERSION = 3 # Where the version number matches the one in the test.
 end
 
 # --WORKING EXAMPLE OUTSIDE OF FUNCTION--
